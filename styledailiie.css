@@ -349,29 +349,37 @@ article{
 
 .view img { 
     transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
 }
 .view .mask {
     opacity: 0;
     background-color: rgba(60,60,60, 0.5); 
     transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
 }
 .view h2 {
     transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
     opacity: 0;
     transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 .view p { 
     transform: translateY(100px);
+    -webkit-transform: translateY(100px);
     opacity: 0;
     transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
 }
 .view a.info{
     opacity: 0;
     transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .view:hover img { 
     transform: scale(1.4);
+    -webkit-transform: scale(1.4);
 } 
 .view:hover .mask { 
     opacity: 1;
@@ -382,20 +390,22 @@ article{
 .view:hover a.info {
     opacity: 1;
     transform: translateY(0px);
+    -webkit-transform:translateY(0px);
 }
 
 .view:hover p {
     transition-delay: 0.1s;
+    -webkit-transition-delay:0.1s;
 }
 
 .view:hover a.info {
     transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
 }
 
 iframe{
     margin:0 auto;/*centrage*/
 }
-
 
 .bibli{
     margin:0 auto;
@@ -424,10 +434,12 @@ iframe{
 
 .bibli img { 
     transition: all 0.2s linear;
+    -webkit-transition:0.45s;
 }
 
 .bibli a:hover img { 
     transform: scale(1.4);
+    -webkit-transform:scale(1.4);
 }
 
 .bibli img:hover{
@@ -480,30 +492,6 @@ iframe{
     max-width:12em;
     width:100%;
 }
-
-
-/*.rotate{
-    -webkit-transition-duration: 1.5s;
-    -moz-transition-duration: 1.5s;
-    -o-transition-duration: 1.5s;
-    transition-duration: 1.5s;
-     
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-     
-    overflow:hidden;
- 
-    }   
- 
-.rotate:hover   
-{ 
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg); 
-    -o-transform:rotate(360deg);
-} */  
-
 
 .membre h3{
     display:block;
