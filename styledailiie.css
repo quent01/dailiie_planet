@@ -113,8 +113,14 @@ table {
     article {
         width: 55%;
     }
+
+    #ensiie li {
+        display : block;
+        margin-right: 0em;
+        margin-left:0em;
+    }
 }
-/*Fin media queries*/
+/*Fin media queries
 
 /*element principaux*/
 body {
@@ -421,8 +427,10 @@ iframe{
 
 .membre{
     display:inline-block;
-    height:19em;
-    width : 12em;
+    max-height:19em;
+    height:100%;
+    max-width : 12em;
+    width:100%;
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
@@ -431,12 +439,13 @@ iframe{
 }
 
 .membre img{
-    margin:0 auto;
-    width:12em;
+    /*margin:0 auto;*/
+    max-width:12em;
+    width:100%;
 }
 
 
-.rotate{
+/*.rotate{
     -webkit-transition-duration: 1.5s;
     -moz-transition-duration: 1.5s;
     -o-transition-duration: 1.5s;
@@ -456,7 +465,7 @@ iframe{
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg); 
     -o-transform:rotate(360deg);
-}   
+} */  
 
 
 .membre h3{
@@ -468,13 +477,12 @@ iframe{
     text-align: center;
     letter-spacing: 0.11em;
     background-image:url("Images/equipe/bandeau2.png");
-    /*box-shadow: 2px 2px 10px rgba(0,0,0,0.5);*/
     text-shadow:1px 1px 0 #888;
     background-size: 100%;
     height:1.4em;
     line-height: 1.4em;
     background-repeat:no-repeat;
-    margin-top: -0.9em;
+    margin-top: -0.9em; 
     /*Décoration*/
     /*border-top: 2px dashed rgba(255,255,255,0.7);*/
     /*border-bottom: 2px dashed rgba(255,255,255,0.7);*/
@@ -484,7 +492,7 @@ iframe{
 .description{
     margin:0 auto;
     display:block;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro',Arial;
     margin-top: 1em;
     /*text-align: center;*/
     max-width: 30em;
@@ -515,9 +523,9 @@ footer h1 {
 #ensiie {
     margin: 0 auto;
     background-color: #606060;
-    /*border: solid 1px red;*/
     padding-top: 1em;
     padding-bottom: 1.5em;
+    border: solid 1px red;
 }
 
 #ensiie h1{
@@ -528,22 +536,23 @@ footer h1 {
     padding-bottom: 0.5em;
     margin-top: -0.5em;
     margin-bottom: 2em;
-    width:18em;
+    max-width:18em;
+    width:100%;
     text-align: center;
 }
 
 #ensiie ul {
     text-align: center;
     margin: 0 auto;
-    vertical-align: top;
+    /*vertical-align: top;*/
     margin-top: 1em;
-    padding-left: 0.1em;
+    /*padding-left: 0.1em;*/
 }
 
 #ensiie li {
     display : inline-block;
-    margin-right: 7.9em;
-    margin-left:7.9em;
+    margin-right: 3.4em;
+    margin-left:3.4em;
     list-style:none;
 }
 
