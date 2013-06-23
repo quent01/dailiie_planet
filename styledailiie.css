@@ -264,7 +264,6 @@ header {
     padding-bottom: 3em;
 }
 
-
 .shadow{
    box-shadow: 2px 2px 20px rgba(0,0,0,1); 
 }
@@ -272,59 +271,125 @@ header {
 article{
     /*margin-top: 20px;*/
     margin: 0 auto;
+    margin-bottom: 5em;
     /*border: 1px solid white;*/
 }
 
-.lire_en_ligne{
+.view {
     margin: 0 auto;
-    margin-top: 2.5em;
-    max-width:17em;
+    max-width: 17em;
     width:100%;
-    /*border:solid 1px red;*/
-
-}
-
-.lire_en_ligne img{
-    max-width:17em;
-    width: 100%;
-}
-
-.lire_en_ligne img .addborder{  
-    border-bottom:solid 4px white;
-    border-top:solid 4px white;
-}
-
-.lire_en_ligne .read{
-    z-index: 99;
-    margin: 0 auto;
-    height : 2em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    line-height: 2em;
+    max-height: 24.2em;
+    height:100%;
+    margin-top: 2.5em;
+    /*float: center;*/
+    /*border: 10px solid #fff;*/
+    overflow: hidden;
+    position: relative;
     text-align: center;
-    vertical-align: middle;
-    display: none;
+    /*box-shadow: 1px 1px 2px #e6e6e6;*/
+    cursor: default;
+    background: #fff no-repeat center center;
+}
+
+.view .mask, .view .content {
+    max-width: 17em;
+    width:100%;
+    height: 24.2em;
     position: absolute;
-    margin-top: -10.5em;
-    margin-left: 3.2em;
-    color : white;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    max-width: 17em;
+    width:100%;
+    position: relative;
+}
+.view h2 {
+    width:auto;
+    color: #fff;
+    text-align: left;
+    position: relative;
     font-size: 1.3em;
-    background-color: rgba(10,10,10,0.6);
+    padding: 0.4em;
+    background: rgba(0, 0, 0, 0.85);
+    margin: 0.3em 0 0 0;
     /*border: solid 1px red;*/
 }
-
-.lire_en_ligne a:hover .read{
-    display: block;
+.view p {
+    margin-top: 1em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 0.9em;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    /*text-align: center;*/
+    /*border:solid 1px red;*/
+}
+.view a.info {
+    font-family: 'lovelo';
+    margin-top: 1em;
+    display: inline-block;
+    text-decoration: none;
+    font-size:1em;
+    padding: 7px 14px;
+    background: rgba(10,10,10,0.8);
+    color: #fff;
+    text-transform: uppercase;
+    /*border:solid 2px rgba(255,255,255,0.5);*/
+    box-shadow: 0px 0px 2px white;
+}
+.view a.info:hover {
+    box-shadow: 0 0 10px black;
+    background: rgba(10,10,10,0.9);
 }
 
-.lire_en_ligne a:hover img{
-    opacity: 0.5;
-    filter: brightness(130%);
-    -webkit-filter: brightness(130%);
-    -moz-filter: brightness(130%);
-    -o-filter: brightness(130%);
-    -ms-filter: brightness(130%);
-    /*background-color: white;*/
+.view img { 
+    transition: all 0.2s linear;
+}
+.view .mask {
+    opacity: 0;
+    background-color: rgba(60,60,60, 0.5); 
+    transition: all 0.4s ease-in-out;
+}
+.view h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view p { 
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.view:hover img { 
+    transform: scale(1.4);
+} 
+.view:hover .mask { 
+    opacity: 1;
+}
+
+.view:hover h2,
+.view:hover p,
+.view:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.view:hover p {
+    transition-delay: 0.1s;
+}
+
+.view:hover a.info {
+    transition-delay: 0.2s;
 }
 
 iframe{
@@ -357,11 +422,22 @@ iframe{
     transition: 0.45s;
 }
 
+.bibli img { 
+    transition: all 0.2s linear;
+}
+
+.bibli a:hover img { 
+    transform: scale(1.4);
+}
+
 .bibli img:hover{
+
 }
 
 .bibli a {
     display: inline-block;
+    /*overflow:hidden;   */
+    /*border: solid 1px red;*/
 }
 
 .bibli a span{
@@ -369,7 +445,7 @@ iframe{
     background-image:url("Images/Icones/utile/save_as.png");
     background-repeat:no-repeat;
     background-size: 100%;  
-    position:absolute;
+    position:relative;
     width:2em;
     height:2em;
     margin-left: 8em;
@@ -486,7 +562,7 @@ footer h1 {
     background-color: #606060;
     padding-top: 1em;
     padding-bottom: 1.5em;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 #ensiie h1{
@@ -601,6 +677,7 @@ footer h1 {
 }
 
 @media screen and (max-width: 450px){
+
     #logo{
         background-size: 98%;
         height:7.5em;
@@ -610,6 +687,12 @@ footer h1 {
 @media screen and (max-width: 400px){
         #logo{
             height:6em;
+    }
+}
+
+@media screen and (max-width:323px){
+    .view p{
+        display:none;
     }
 }
 
