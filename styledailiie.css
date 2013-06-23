@@ -338,7 +338,7 @@ iframe{
     width:100%;
     /*padding-bottom: 2em;*/
     margin-top: 1em;
-    border:1px solid green;
+    /*border:1px solid green;*/
 }
 
 .bibli img {
@@ -543,9 +543,9 @@ footer h1 {
     background-color: #939393;
 	text-align: center;
 	padding-top:1em;
-	/*border:solid 1px green;*/
 	width:auto;
     height:2em;
+    /*border:solid 1px green;*/
 }	
 
 /*Media queries*/
@@ -599,4 +599,18 @@ footer h1 {
         margin-left:0em;    
     }
 }
+
+@media screen and (max-width: 450px){
+    #logo{
+        background-size: 98%;
+        height:7.5em;
+    }
+}
+
+@media screen and (max-width: 400px){
+        #logo{
+            height:6em;
+    }
+}
+
 /*Fin media queries
