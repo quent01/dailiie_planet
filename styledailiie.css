@@ -168,9 +168,20 @@ header {
 
 #menu li {
     display : inline-block;
+    line-height: 2.5em;
+    margin-top: 0.1em;
+    /*margin-top: -0.7em;*/
     margin-right: 3.5em;
     margin-left:3.5em;
     list-style:none;
+}
+
+#menu li #rss{
+    width:2em;
+    vertical-align: middle;
+    text-align:center;
+    margin-top: -0.3em;
+    
 }
 
 #menu a{
@@ -538,6 +549,7 @@ footer h1 {
     margin-right: 6em;
     margin-left:6em;
     list-style:none;
+    padding-bottom: 1em;
 }
 
 #ensiie a {
@@ -569,6 +581,10 @@ footer h1 {
 	width:auto;
     height:2em;
     /*border:solid 1px green;*/
+}
+
+.author{
+    color:#760001;
 }	
 
 /*Media queries*/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+   
+        <title>Le site du Dailiie Planet</title>
+		<link>https://dailiieplanet.iiens.eu/feed/rss.xml</link>
+        <atom:link rel="self" href="https://dailiieplanet.iiens.eu/feed/rss.xml" type="application/rss+xml" />
+        <description>Le site du journal de l'IIE Strasbourg</description>
+       
+        <item>
+            <title>Enfin un flux RSS !</title>
+            <link>https://dailiieplanet.iiens.eu/feed/rss.xml</link>
+            <guid isPermaLink="true">https://dailiieplanet.iiens.eu/feed/rss.xml</guid>
+            <description>Un flux RSS a été installé sur le site du Dailiie Planet. Vous pouvez le consulter avec votre logiciel favori.</description>
+            <pubDate>Wed, 9 Oct 2013 10:00:00 GMT</pubDate>
+        </item>
+       
+    </channel>
+</rss>
