@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+   
+        <title>Le site du Dailiie Planet</title>
+		<link>https://dailiieplanet.iiens.eu/feed/rss.xml</link>
+        <atom:link rel="self" href="https://dailiieplanet.iiens.eu/feed/rss.xml" type="application/rss+xml" />
+        <description>Le site du journal de l'IIE Strasbourg</description>
+         
+        <item>
+            <title>C'est le numéro 11 !</title>
+            <link>https://dailiieplanet.iiens.eu</link>
+            <description>Sortie du numéro 11 du Dailiie Planet, à la gloire de notre bureau des sports.</description>
+            <pubDate>Fri, 29 Mar 2014 14:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Les numéros de la campagne</title>
+            <link>https://dailiieplanet.iiens.eu/Ancien_numero.php?serie=campagne_2013-2014</link>
+            <description>Les numéros de notre belle campagne pour ton plus grand plaisir je l'espère !</description>
+            <pubDate>Fri, 24 Jan 2014 23:40:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>C'est Le numéro 10 !</title>
+            <link>https://dailiieplanet.iiens.eu/</link>
+            <guid isPermaLink="true">https://dailiieplanet.iiens.eu/Ancien_numero.php</guid>
+            <description>Sortie du numéro 10 du Dailiie Planet, monté par une équipe toute neuve, toute belle, nous espérons que ce numéro pré campagne saura te satisfaire.^^</description>
+            <pubDate>Tue, 26 Nov 2013 15:00:00 GMT</pubDate>
+        </item>
+       
+        <item>
+            <title>Enfin un flux RSS !</title>
+            <link>https://dailiieplanet.iiens.eu/</link>
+            <guid isPermaLink="true">https://dailiieplanet.iiens.eu/Ancien_numero.php</guid>
+            <description>Un flux RSS a été installé sur le site du Dailiie Planet. Vous pouvez le consulter avec votre logiciel favori.</description>
+            <pubDate>Wed, 9 Oct 2013 10:00:00 GMT</pubDate>
+        </item>
+      
+    </channel>
+</rss>
