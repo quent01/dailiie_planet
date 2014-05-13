@@ -28,7 +28,7 @@
 	</a>
 
 	<a class="membre">
-		<img href="#" src="Images/equipe/avatars/Moumou_2.png" title="Simon"/>
+		<img href="#" src="Images/equipe/avatars/Simon.png" title="Simon"/>
 		<h3>simon</h3>	
 	</a>
 
