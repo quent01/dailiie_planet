@@ -61,14 +61,6 @@
 
 }
 
-#main_with_section header a:nth-child(-n+1){/* change to -n+ (k-1) where k is the number of <a> in the header*/
-	z-index: 99;
-	border-right:solid 2px #9a9a9a;
-}
-#main_with_section header a:nth-last-child(-n+1){/* change to -n+ (k-1) where k is the number of <a> in the header*/
-	padding-left: 1.5em;
-}
-
 #main_with_section a:hover{ 
 	color : white;
 }
