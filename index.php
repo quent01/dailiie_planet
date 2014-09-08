@@ -24,14 +24,27 @@
 			
 
 		<div id="main">
+			<h1>Dailiie #12</h1>
+			<article>
+				<div class="view shadow">  
+		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet12.jpg"/> 
+				     	<div class="mask">  
+				     		<h2>Dailiie #12</h2>  
+				     		<p>Il était attendu, le voilà, le numéro 11 !<br> 
+				     		Numéro à la gloire de nos héros du BDS qui ont vaincu à Centrale Lyon, un seul mot me vient à l'esprit, 'Veni Vidi Vici' !</p>  
+				         	<a href="anciens_numeros/DailiiePlanet12.pdf" target="_blank" class="info">Read now</a>  
+				     	</div>  
+				</div>
+		    </article>
+
 			<h1>Dailiie #11</h1>
 			<article>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet11.jpg"/> 
 				     	<div class="mask">  
 				     		<h2>Dailiie #11</h2>  
-				     		<p>Il était attendu, le voilà, le numéro 11 !<br> 
-				     		Numéro à la gloire de nos héros du BDS qui ont vaincu à Centrale Lyon, un seul mot me vient à l'esprit, 'Veni Vidi Vici' !</p>  
+				     		<p>On démarre l'année en beauté avec le numéro 12 !<br> 
+				     		Numéro spécial inté, vous pourrez y découvrir les résultats des Strasbourg d'Or, les BD Tiramisu et bien plus encore !</p>  
 				         	<a href="anciens_numeros/DailiiePlanet11.pdf" target="_blank" class="info">Read now</a>  
 				     	</div>  
 				</div>
@@ -78,7 +91,7 @@
 				</div>
 			</article>
 
-			<h1>Dailiie #7</h1>
+<!-- 			<h1>Dailiie #7</h1>
 			<article>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet07.jpg"/> 
@@ -89,7 +102,7 @@
 				         	<a href="anciens_numeros/DailiiePlanet7.pdf" target="_blank" class="info">Read now</a>  
 				     	</div>  
 				</div>
-		    </article> 
+		    </article>  -->
 
 
 		<!-- close #main content -->

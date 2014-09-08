@@ -1,6 +1,11 @@
 <h1>Numéros parus</h1>  
 <article>
       <div class="bibli">
+            <a href="anciens_numeros/DailiiePlanet12.pdf" target="_blank">
+                  <img class="couv shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet12.jpg" title="Click to download Dailiie #12"/>
+                  <span href="#"></span>
+            </a>
+
             <a href="anciens_numeros/DailiiePlanet11.pdf" target="_blank">
                   <img class="couv shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet11.jpg" title="Click to download Dailiie #11"/>
                   <span href="#"></span>
