@@ -23,7 +23,7 @@
 			<?php include("templates/_header.php"); ?>			
 		</header>
 	
-		<div id="main_with_section">
+		<div id="main_with_section" class="team-container">
 			
 			<?php 
 				if(isset($_GET['year'])){

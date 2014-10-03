@@ -418,148 +418,154 @@ iframe{
     /*display: inline-block;*/
 }
 
-.membre{
-    display:inline-block;
-    max-height:19em;
-    height:100%;
-    max-width : 12em;
-    width:100%;
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    /*transition:1s;*/
-    /*border : solid red 1px;*/
-}
+/** PAGE D'ÉQUIPE ********************/
+    .team-container article{
+        text-align: center;
+    }
+    .membre{
+        display:inline-block;
+        max-height:19em;
+        height:100%;
+        max-width : 12em;
+        width:100%;
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        /*transition:1s;*/
+        /*border : solid red 1px;*/
+    }
 
-.membre img{
-    /*margin:0 auto;*/
-    max-width:12em;
-    width:100%;
-}
+    .membre img{
+        /*margin:0 auto;*/
+        max-width:12em;
+        width:100%;
+    }
 
-.membre h3{
-    display:block;
-    position:relative;
-    color:white;
-    font-family: 'varsity';
-    font-size : 1.8em;
-    text-align: center;
-    letter-spacing: 0.11em;
-    background-image:url("../Images/equipe/bandeau2.png");
-    text-shadow:1px 1px 0 #888;
-    background-size: 100%;
-    height:1.4em;
-    line-height: 1.4em;
-    background-repeat:no-repeat;
-    margin-top: -0.9em; 
-    /*Décoration*/
-    /*border-top: 2px dashed rgba(255,255,255,0.7);*/
-    /*border-bottom: 2px dashed rgba(255,255,255,0.7);*/
-    /*border: solid 1px white;*/
-}
+    .membre h3{
+        display:block;
+        position:relative;
+        color:white;
+        font-family: 'varsity';
+        font-size : 1.8em;
+        text-align: center;
+        letter-spacing: 0.11em;
+        background-image:url("../Images/equipe/bandeau2.png");
+        text-shadow:1px 1px 0 #888;
+        background-size: 100%;
+        height:1.4em;
+        line-height: 1.4em;
+        background-repeat:no-repeat;
+        margin-top: -0.9em; 
+        /*Décoration*/
+        /*border-top: 2px dashed rgba(255,255,255,0.7);*/
+        /*border-bottom: 2px dashed rgba(255,255,255,0.7);*/
+        /*border: solid 1px white;*/
+    }
 
-.description{
-    margin:0 auto;
-    display:block;
-    font-style: italic;
-    margin-top: 2em;
-    text-align: center;
-    max-width: 30em;
-    width:100%;
-    background-color: #303030;
-    color:white;
-    padding: 2em;
-    border: solid 2px white;
-}
+    .description{
+        margin:0 auto;
+        display:block;
+        font-style: italic;
+        margin-top: 2em;
+        text-align: center;
+        max-width: 30em;
+        width:100%;
+        background-color: #303030;
+        color:white;
+        padding: 2em;
+        border: solid 2px white;
+    }
 
-footer {
-    margin: 0 auto;
-    height: 5em;
-    /*border: solid 1px red;*/
- }
+/** FOOTER ***************************/
+    footer {
+        margin: 0 auto;
+        height: 5em;
+        /*border: solid 1px red;*/
+     }
 
-footer p, footer ul {
-    font-size: 0.8em;
-}
+    footer p, footer ul {
+        font-size: 0.8em;
+    }
 
-footer li {
-    margin-left: 4em;
-}
+    footer li {
+        margin-left: 4em;
+    }
 
-footer h1 {
-    font-size: 0.8em;
-}
-#ensiie {
-    margin: 0 auto;
-    background-color: #606060;
-    padding-top: 1em;
-    padding-bottom: 1.5em;
-    /*border: solid 1px red;*/
-}
+    footer h1 {
+        font-size: 0.8em;
+    }
+    #ensiie {
+        margin: 0 auto;
+        background-color: #606060;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+        /*border: solid 1px red;*/
+    }
 
-#ensiie h1{
-    margin:0 auto;
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-top: -0.5em;
-    margin-bottom: 2em;
-    max-width:18em;
-    width:100%;
-    text-align: center;
-}
+    #ensiie h1{
+        margin:0 auto;
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        margin-top: -0.5em;
+        margin-bottom: 2em;
+        max-width:18em;
+        width:100%;
+        text-align: center;
+    }
 
-#ensiie ul {
-    text-align: center;
-    margin: 0 auto;
-    /*vertical-align: top;*/
-    margin-top: 1em;
-    /*padding-left: 0.1em;*/
-}
+    #ensiie ul {
+        text-align: center;
+        margin: 0 auto;
+        /*vertical-align: top;*/
+        margin-top: 1em;
+        /*padding-left: 0.1em;*/
+    }
 
-#ensiie li {
-    display : inline-block;
-    margin-right: 3.5em;
-    margin-left:3.5em;
-    list-style:none;
-    padding-bottom: 1em;
-}
+    #ensiie li {
+        display : inline-block;
+        margin-right: 3.5em;
+        margin-left:3.5em;
+        list-style:none;
+        padding-bottom: 1em;
+    }
 
-#ensiie a {
-    text-decoration: none;
-    color: #760001;
-    font-size: 1.2em;
-    /* CSS3 Transition: */
-    -webkit-transition: 0.25s;
-    -o-transition: 0.25s;
-    transition: 0.25s;
-}
+    #ensiie a {
+        text-decoration: none;
+        color: #760001;
+        font-size: 1.2em;
+        /* CSS3 Transition: */
+        -webkit-transition: 0.25s;
+        -o-transition: 0.25s;
+        transition: 0.25s;
+    }
 
 
-#ensiie a:hover {
-    width:auto;  
-    overflow:visible;
-    color: white;
-}
+    #ensiie a:hover {
+        width:auto;  
+        overflow:visible;
+        color: white;
+    }
 
-#copyright{
-    margin: 0 auto;
-    font-family: 'bebas';
-    color:black;
-    font-size: 0.9em;
-    letter-spacing:0.09em;
-    background-color: #939393;
-	text-align: center;
-	padding-top:1em;
-	width:auto;
-    height:2em;
-    /*border:solid 1px green;*/
-}
+    #copyright{
+        margin: 0 auto;
+        font-family: 'bebas';
+        color:black;
+        font-size: 0.9em;
+        letter-spacing:0.09em;
+        background-color: #939393;
+    	text-align: center;
+    	padding-top:1em;
+    	width:auto;
+        height:2em;
+        /*border:solid 1px green;*/
+    }
 
-.author{
-    color:#760001;
-}	
+    .author{
+        color:#760001;
+    }	
+
 
 /********************** MEDIA QUERIES *************************/
     @media screen and (max-width: 980px) and (min-width: 768px) {
