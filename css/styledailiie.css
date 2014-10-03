@@ -170,26 +170,19 @@ header {
 
 }
 
-#menu a:link{
-    color : #9a9a9a;
-}
-
-/* #menu a:visited{
-    color : green;
-} */
-
-#menu a:hover{
-    color : white;
-}
-
+#menu a:link { color : #9a9a9a;}
+#menu a:hover { color : white;}
 #menu ul .selected a{
     border-bottom: solid 3px white;
+    color: white;
 }
 
 #main{
     margin:0 auto;
     display:block;
-    margin-top: 0.5em;
+    z-index: 100;
+    position: relative;
+    margin-top: 0.45em;
     margin-bottom: 5em;
     padding-top: 0.1em;
     max-width: 52em;

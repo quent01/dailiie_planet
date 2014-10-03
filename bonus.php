@@ -24,31 +24,32 @@
 		</header>
 	
 		<div id="main_with_section">
+			
+			<?php 
+				if(isset($_GET['year'])){
+					$year = $_GET['year'];
+				}
+				else{
+					$year = 2012;	
+				}	
+			?>
+
 			<header>
-					<a href="bonus.php?year=2012">2012-2013</a>
-					<a href="bonus.php?year=2013">2013-2014</a>
+					<a class="<?php if($year == 2012){echo 'active'; }else { echo ''; } ?>" href="bonus.php?year=2012">2012-2013</a>
+					<a class="<?php if($year == 2013){echo 'active'; }else { echo ''; } ?>" href="bonus.php?year=2013">2013-2014</a>
 			</header>
 			<div id="main">
 				
 				<?php 
-					if(isset($_GET['year'])){
-						$year = $_GET['year'];
-						if ($year == 2013)
-							include("templates/_equipe 2013-2014.php"); 						
-
-						else
-							include("templates/_equipe 2012-2013.php"); 							
-					}
-					else
-						include("templates/_equipe 2013-2014.php"); 						
-					
+					if ($year == 2013) { include("templates/_equipe 2013-2014.php"); }
+					else { include("templates/_equipe 2012-2013.php"); } 													
 				?>
+
 			<!-- close #main content -->
 			</div>
 		</div>
-		<footer>
-			<?php include("templates/_footer.php"); ?>			
-		</footer>
+
+		<?php include("templates/_footer.php"); ?>			
 
 	</body>
 </html>

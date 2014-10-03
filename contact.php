@@ -59,9 +59,7 @@
 			<?php include ("templates/envoi.php") ?>                             
 		</div>
 	
-		<footer>
-			<?php include("templates/_footer.php"); ?>			
-		</footer>
+		<?php include("templates/_footer.php"); ?>			
 
 	</body>
 </html>

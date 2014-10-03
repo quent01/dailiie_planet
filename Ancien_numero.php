@@ -24,30 +24,31 @@
 		</header>
 
 		<div id="main_with_section">
+			<?php 
+				if(isset($_GET['serie'])){
+					$serie = $_GET['serie'];
+				}
+				else $serie = 'normal';
+			?>
+
 			<header>
-				<a class="fisrt" href="Ancien_numero.php?serie=normal">Normal</a>
-				<a href="Ancien_numero.php?serie=campagne_2013-2014">Campagne 2013-2014</a>				
+				<a class="first <?php if($serie == 'normal'){echo 'active'; }else { echo ''; } ?>" href="Ancien_numero.php?serie=normal">Normal</a>
+				<a class="<?php if($serie == 'campagne_2013-2014'){echo 'active'; }else { echo ''; } ?>" href="Ancien_numero.php?serie=campagne_2013-2014">Campagne 2013-2014</a>				
 			</header>
 			<div id="main">
 				<?php
-					if(isset($_GET['serie'])){
-						$serie = $_GET['serie'];
-						if ($serie == "normal") {
+					if ($serie == "normal") {
 							include("templates/_numero.php");
-						}
-						else if ($serie == "campagne_2013-2014") {
-							include("templates/_campagne_2013_2014.php");
-						}
-					}	
-					else
-						include("templates/_numero.php");
+					}
+					else if ($serie == "campagne_2013-2014") {
+						include("templates/_campagne_2013_2014.php");
+					}
 				?>	
 			</div>	 
 		<!-- close #download content -->
 		</div>
-		<footer>
-			<?php include("templates/_footer.php"); ?>			
-		</footer>
+
+		<?php include("templates/_footer.php"); ?>			
 
 	</body>
 </html>
