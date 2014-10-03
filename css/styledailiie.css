@@ -163,7 +163,7 @@ header {
     
     /* CSS3 Transition: */
     -webkit-transition: 0.15s; 
-    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
     transition: 0.15s;
     
     /* border : solid 1px red; */
@@ -193,16 +193,24 @@ header {
     /*border: solid 1px red;*/
 }
 
-.shadow{
-   box-shadow: 2px 2px 20px rgba(0,0,0,1); 
-}
+.shadow { box-shadow: 2px 2px 20px rgba(0,0,0,1); }
 
 article{
     /*margin-top: 20px;*/
     margin: 0 auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     width:100%;
     /*border: 1px solid white;*/
+}
+article:nth-child(1){
+    margin-top: 25px;
+}
+hr{
+    width: 80%;
+    margin-bottom: 2em;
+    border: 0;
+    height: 1px;
+    background-color: #939393; 
 }
 
 .view {
@@ -283,7 +291,7 @@ article{
 }
 .view .mask {
     opacity: 0;
-    background-color: rgba(60,60,60, 0.5); 
+    background-color: rgba(60,60,60, 0.8); 
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
@@ -308,8 +316,10 @@ article{
 }
 
 .view:hover img { 
-    transform: scale(1.4);
     -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
 } 
 .view:hover .mask { 
     opacity: 1;
@@ -319,18 +329,22 @@ article{
 .view:hover p,
 .view:hover a.info {
     opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
-    -webkit-transform:translateY(0px);
 }
 
 .view:hover p {
-    transition-delay: 0.1s;
-    -webkit-transition-delay:0.1s;
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;  
 }
 
 .view:hover a.info {
-    transition-delay: 0.2s;
     -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
 }
 
 iframe{
@@ -339,10 +353,11 @@ iframe{
 
 .bibli{
     margin:0 auto;
-    max-width: 40em;
+    /*max-width: 40em;*/
     width:100%;
     /*padding-bottom: 2em;*/
     margin-top: 1em;
+    text-align: center;
     /*border:1px solid green;*/
 }
 
@@ -358,18 +373,21 @@ iframe{
 
     /* CSS3 Transition: */
     -webkit-transition: 0.45s;
-    -moz-transition: 0.45s;
+    -o-transition: 0.45s;
     transition: 0.45s;
 }
 
 .bibli img { 
     transition: all 0.2s linear;
     -webkit-transition:0.45s;
+    -o-transition: 0.45s;
 }
 
 .bibli a:hover img { 
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
     transform: scale(1.4);
-    -webkit-transform:scale(1.4);
 }
 
 .bibli a {
@@ -390,7 +408,7 @@ iframe{
     margin-top: -3em;
     /* CSS3 Transition: */
     -webkit-transition: 0.35s;
-    -moz-transition: 0.35s;
+    -o-transition: 0.35s;
     transition: 0.35s;
     display: none;
     /*border:solid 1px red;*/
@@ -514,7 +532,7 @@ footer h1 {
     font-size: 1.2em;
     /* CSS3 Transition: */
     -webkit-transition: 0.25s;
-    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
     transition: 0.25s;
 }
 
@@ -543,105 +561,104 @@ footer h1 {
     color:#760001;
 }	
 
-/*Media queries*/
-@media screen and (max-width: 980px) and (min-width: 768px) {
-    #container {
-        width: 95%;
-    }  
-    article {
-        width: 75%;
-    }
-    nav {
-        width: 25%;
-    }
-    nav ul a, nav ul a:visited {
-        width: auto;
-    }
-}
- 
-@media screen and (max-width: 768px) {
-    #menu li{
-        margin-right: 2em;
-        margin-left:2em;    
-    }
-
-    #container {
-        width: 95%;
-    }
-    nav {
-        width: 100%;
-        float: none;
+/********************** MEDIA QUERIES *************************/
+    @media screen and (max-width: 980px) and (min-width: 768px) {
+        #container {
+            width: 95%;
+        }  
+        article {
+            width: 75%;
+        }
+        nav {
+            width: 25%;
+        }
+        nav ul a, nav ul a:visited {
+            width: auto;
+        }
     }
      
-    nav ul a, nav ul a:visited {
-        width: auto;
-    }
-     
-    article {
-        width: 60%;
-    }
-    .description{
-        width:60%;
-    }
-    .membre{
-        width:80%;
+    @media screen and (max-width: 768px) {
+        #menu li{
+            margin-right: 2em;
+            margin-left:2em;    
+        }
+
+        #container {
+            width: 95%;
+        }
+        nav {
+            width: 100%;
+            float: none;
+        }
+         
+        nav ul a, nav ul a:visited {
+            width: auto;
+        }
+         
+        article {
+            width: 60%;
+        }
+        .description{
+            width:60%;
+        }
+        .membre{
+            width:80%;
+        }
+
+        #ensiie li {
+            display : block;
+            margin-right: 0em;
+            margin-left:0em;
+        }
     }
 
-    #ensiie li {
-        display : block;
-        margin-right: 0em;
-        margin-left:0em;
+    @media screen and (max-width: 630px){
+        #menu li{
+            display : block;
+            margin-right: 0em;
+            margin-left:0em;    
+        }
     }
-}
 
-@media screen and (max-width: 630px){
-    #menu li{
-        display : block;
-        margin-right: 0em;
-        margin-left:0em;    
-    }
-}
+    @media screen and (max-width: 450px){
 
-@media screen and (max-width: 450px){
-
-    #logo{
-        background-size: 98%;
-        height:7.5em;
-    }
-}
-
-@media screen and (max-width: 400px){
         #logo{
-            height:6em;
+            background-size: 98%;
+            height:7.5em;
+        }
     }
-}
 
-@media screen and (max-width:325px){
-    h1{
-        text-align: center;
-        margin-left: 5px;
+    @media screen and (max-width: 400px){
+            #logo{
+                height:6em;
+        }
     }
-    h2{
-        text-align: center;
-        margin-left: 5px;
-    }
-    .view p{
-        display:none;
-    }
-    .membre h3{
-        display:block;
-        font-size : 1em;
-        height:1.7em;
-        line-height: 1.7em;
-    }
-}
 
-@media screen and (max-width: 237px){
-    .membre h3{
-        line-height:1.3em; 
-        height:1.3em;
+    @media screen and (max-width:325px){
+        h1{
+            text-align: center;
+            margin-left: 5px;
+        }
+        h2{
+            text-align: center;
+            margin-left: 5px;
+        }
+        .view p{
+            display:none;
+        }
+        .membre h3{
+            display:block;
+            font-size : 1em;
+            height:1.7em;
+            line-height: 1.7em;
+        }
     }
-}
 
+    @media screen and (max-width: 237px){
+        .membre h3{
+            line-height:1.3em; 
+            height:1.3em;
+        }
+    }
 
-/*Fin media queries
+/********************** FIN MEDIA QUERIES **********************

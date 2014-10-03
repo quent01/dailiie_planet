@@ -24,8 +24,8 @@
 			
 
 		<div id="main">
-			<h1>Dailiie #12</h1>
 			<article>
+				<h1>Dailiie #12</h1>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet12.jpg"/> 
 				     	<div class="mask">  
@@ -37,8 +37,10 @@
 				</div>
 		    </article>
 
-			<h1>Dailiie #11</h1>
+		    <hr>
+
 			<article>
+				<h1>Dailiie #11</h1>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet11.jpg"/> 
 				     	<div class="mask">  
@@ -50,8 +52,10 @@
 				</div>
 		    </article>
 
-			<h1>Dailiie #10</h1>
+		    <hr>
+
 			<article>
+				<h1>Dailiie #10</h1>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet10.jpg"/> 
 				     	<div class="mask">  
@@ -65,8 +69,10 @@
 				</div>
 		    </article>
 
-			<h1>Dailiie #9</h1>
+		    <hr>
+
 			<article>
+				<h1>Dailiie #9</h1>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet09.jpg"/> 
 				     	<div class="mask">  
@@ -78,8 +84,10 @@
 				</div>
 			</article>
 
-			<h1>Dailiie #8</h1>
+		    <hr>
+
 			<article>
+				<h1>Dailiie #8</h1>
 				<div class="view shadow">  
 		            <img class="shadow" href="#" src="Images/Couv/Couv_moyen/DailiiePlanet08.jpg"/> 
 				     	<div class="mask">  
