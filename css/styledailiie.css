@@ -572,9 +572,6 @@ iframe{
         #container {
             width: 95%;
         }  
-        article {
-            width: 75%;
-        }
         nav {
             width: 25%;
         }
@@ -588,28 +585,16 @@ iframe{
             margin-right: 2em;
             margin-left:2em;    
         }
-
-        #container {
-            width: 95%;
-        }
+        #container {width: 95%;}
         nav {
             width: 100%;
             float: none;
         }
-         
         nav ul a, nav ul a:visited {
             width: auto;
         }
-         
-        article {
-            width: 60%;
-        }
-        .description{
-            width:60%;
-        }
-        .membre{
-            width:80%;
-        }
+        .description{width:60%;}
+        .membre{width:80%;}
 
         #ensiie li {
             display : block;
@@ -635,9 +620,7 @@ iframe{
     }
 
     @media screen and (max-width: 400px){
-            #logo{
-                height:6em;
-        }
+            #logo{ height:6em;}
     }
 
     @media screen and (max-width:325px){
@@ -649,9 +632,7 @@ iframe{
             text-align: center;
             margin-left: 5px;
         }
-        .view p{
-            display:none;
-        }
+        .view p{display:none;}
         .membre h3{
             display:block;
             font-size : 1em;
