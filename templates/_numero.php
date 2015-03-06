@@ -25,7 +25,7 @@
                               }
                         }
                   }
-                  $a_dailiie = array_reverse($a_dailiie);
+                  rsort($a_dailiie);
                   closedir($dossier);
             }
             ?>
