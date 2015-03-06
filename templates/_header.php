@@ -18,11 +18,7 @@
 					<span>équipe</span>
 				</a>
 			</li>
-			<li class="<?php if(basename($_SERVER['SCRIPT_NAME']) == 'contact.php'){echo 'selected'; }else { echo ''; } ?>">
-				<a href = "contact.php" alt = "contact">
-					<span>contact</span>
-				</a>
-			</li>
+			
 			<li>
 				<a href = "https://dailiieplanet.iiens.eu/feed/rss.xml" alt="RSS">
 	  				<!-- <img id="rss" src="Images/Icones/rss.png" alt="Flux RSS"/> -->
